@@ -1,3 +1,98 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa", serif;}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    font-weight: 900;
+    /* font-style: normal; */
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly;
+     */
+
+    gap: 50px;
+}
+
+#nav h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#main h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 130px;
+    /* background-color: red; */
+    /* margin-top: 100px; */
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+
+#main  h1:nth-child(2){
+    margin-top: 180px;
+}
+#main  h1:nth-child(3){
+    text-align: center;
+}
+
+#main  h1:nth-child(4){
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    position:absolute;
+    top: 12%;
+    left: 40%;
+}
+
+#img2{
+    rotate: 10deg;
+    
+}
+
+#img3{
+    rotate: 20deg;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer h4{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
 }
